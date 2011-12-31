@@ -1,0 +1,99 @@
+* { margin: 0;padding: 0;}
+
+/*BODY*/
+body {width:100%; height: 1422px; text-align:center; font-family: Arial, Helvetica, sans-serif;font-size: 18px;
+        background-color:#c0c0c0; min-width:1300px;}
+
+/*HEAD*/
+#header{width:100%; height:8.4%; background-image:url(../image/header.gif); min-width:1300px;}
+#header a{float:left; margin:10px auto; text-align:center; }
+#header a:link, #header a:visited { text-decoration:none; color:#09f;}
+#header a:hover { text-decoration:none; color:#562231; border-bottom:1px #562231; line-height:25px;}
+
+/*show Time*/
+#showTime{width:19.3%; height:14.3%;float:right; font-size:18px; color: #000; min-width:260px;}
+
+/*LOGO*/
+#logo { margin:0 auto; float:left; width: 20.8%; height:100%;background:url(../image/logo.png) no-repeat 15px 5px; min-width:280px;}
+ 
+/*slogan*/
+#slogan{
+	width:29.7%; height: 42.8%; background:url(../image/slogan.png) no-repeat;
+    position: relative; top: 6px; left: 380px;
+    min-width: 500px;
+}
+
+
+/* bar */
+#bar{width:100%;	height: 1.75%;	background: url(../image/bar.jpg) repeat-x; min-width:1300px;}
+
+/*Scroll Information*/
+#scrollInfor{width: 60.96%; height: 100%; margin:0 300px; padding-top: 3px; text-align:center; min-width:820px;}
+
+
+/*MENU*/
+#menu { position:relative; top: 26px; left: 250px; text-align:right; width:80%; height: 36%;  min-width:820px;}
+#menu li {display:inline-block;width:70px; height: 100%; font-size: 16px;padding: 0px 8px;background:url(../image/button.png) no-repeat; }
+#menu a:link  {color:#000;}
+#menu a:visited {color:#000;}
+#menu a:hover, #menu a:active {color:#00F; line-height: 16px; font-weight: bold; text-decoration:none}
+
+/*CONTENT*/
+#content{	width:85.5%; height: 77.35%; margin:0px 80px; padding: 1% 1%;background-color:#deb887;  min-width:1150px;}
+
+/*LINK AREA*/
+#Logo_link{ width: 96.86%; height: 34.07%; margin: 10px 18px; min-width:1114px;}
+
+.baidu a {float:left; width:276.1px;height:90px;cursor:hand;border: 1px solid white;background:url(../image/link/baidu.jpg) no-repeat 3.55px 4.5px;}
+.baidu a:hover {border: 1px solid blue;}
+.huawei a{float:left;  width:276.1px;height:90px;cursor:hand;border: 1px solid white;background:url(../image/link/huawei.jpg) no-repeat 3.55px 4.5px;}                       
+.huawei a:hover {border: 1px solid blue;}
+.jinshan a{float:left;  width:276.1px;height:90px;cursor:hand;border: 1px solid white;background:url(../image/link/jinshan.jpg) no-repeat 3.55px 4.5px;}
+.jinshan a:hover {border: 1px solid blue;}
+.xiaomi a{float:left;  width:276.1px;height:90px;cursor:hand;border: 1px solid white;background:url(../image/link/xiaomi.jpg) no-repeat 3.55px 4.5px;} 
+.xiaomi a:hover {border: 1px solid blue;}
+.taobao a{float:left;  width:276.1px;height:90px;cursor:hand;border: 1px solid white;background:url(../image/link/taobao.jpg) no-repeat 3.55px 4.5px;} 
+.taobao a:hover {border: 1px solid blue;}
+.tengxun a{float:left;  width:276.1px;height:90px;cursor:hand;border: 1px solid white;background:url(../image/link/tengxun.jpg) no-repeat 3.55px 4.5px;} 
+.tengxun a:hover {border: 1px solid blue;}
+.zhongxin a{float:left;  width:276.1px;height:90px;cursor:hand;border: 1px solid white; background:url(../image/link/zhongxin.jpg) no-repeat 3.55px 4.5px;} 	 
+.zhongxin a:hover {border: 1px solid blue;}
+.google a{float:left;  width:276.1px;height:90px;cursor:hand;border: 1px solid white;background:url(../image/link/google.jpg) no-repeat 3.55px 4.5px;} 	 
+.google a:hover {border: 1px solid blue;}
+.microsoft a{ float:left;  width:276.1px;height:90px;cursor:hand;border: 1px solid white; background:url(../image/link/microsoft.jpg) no-repeat 3.55px 4.5px;} 		 
+.microsoft a:hover {border: 1px solid blue;}
+.huifeng a{float:left; width:276.1px;height:90px;cursor:hand;border: 1px solid white; background:url(../image/link/huifeng.gif) no-repeat 3.55px 4.5px;}
+.huifeng a:hover {border: 1px solid blue;}
+.zhaoshang a{float:left;  width:276.1px;height:90px;cursor:hand;border: 1px solid white;background:url(../image/link/zhaoshang.jpg) no-repeat 3.55px 4.5px;}						
+.zhaoshang a:hover {border: 1px solid blue;}
+.ITElite a{float:left;  width:276.1px;height:90px;cursor:hand;border: 1px solid white; background:url(../image/link/ITElite.png) no-repeat 3.55px 4.5px;}
+.ITElite a:hover {border: 1px solid blue;}
+.ICBC a{float:left;  width:276.1px;height:90px;cursor:hand;border: 1px solid white; background:url(../image/link/ICBC.jpg) no-repeat 3.55px 4.5px;} 
+.ICBC a:hover {border: 1px solid blue;}
+.liantong a{float:left;  width:276.1px;height:90px;cursor:hand;border: 1px solid white; background:url(../image/link/liantong.jpg) no-repeat 3.55px 4.5px;} 
+.liantong a:hover {border: 1px solid blue;}
+.peopleBank a{float:left;  width:276.1px;height:90px;cursor:hand;border: 1px solid white; background:url(../image/link/peopleBank.jpg) no-repeat 3.55px 4.5px;} 
+.peopleBank a:hover {border: 1px solid blue;}
+.yidong a{float:left;  width:276.1px;height:90px;cursor:hand;border: 1px solid white; background:url(../image/link/yidong.jpg) no-repeat 3.55px 4.5px;} 
+.yidong a:hover {border: 1px solid blue;}
+
+
+/*COMPONENT*/
+#component{ float: left; width:28%; height:25.80%; margin: 28px 18px; padding:0.5% 1%; text-align:left; background: url(../image/component.png); min-width: 322px;}
+#component .title{ width: 100%; height: 14.18%;text-align:center; font-size: 30px; color:#000; font-family:STXingkai;}
+#component .main{ margin: 10px 10px; width: 95%; height: 70%;text-align:left; font-size: 18px; color:#000; }
+#component .main a{ display: block; white-space:nowrap; overflow:hidden; -moz-text-overflow: ellipsis;}
+#component .moreContent {width:100%; height:8.86%; margin-top: 10px; font-size: 16px; text-align: right; }
+
+#component  p a:link  {  color:#000; text-decoration:none;}
+#component  p a:visited {color:#000;}
+#component  p a:hover, #component  p a:active {color:#0000cd; text-decoration:underline;}
+
+
+/*FOOT*/
+#foot {clear: both;width:100%;	height: 10.54%;	background: url(../image/foot.png) no-repeat; min-width:1300px;}
+#foot .h8  { font-size: 18px; text-align:center; color:#000; padding-top: 20px; }
+#foot .h10 { font-size: 14px; text-align:center; color:#000}
+
+
+ 
