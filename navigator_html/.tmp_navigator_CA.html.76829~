@@ -1,0 +1,70 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <!-- css file -->
+        <link rel="stylesheet" type="text/css" href="../CSS/navigator.css" />
+        <!-- js file -->
+        <script charset="utf-8" type="text/javascript" src="../js/showTime.js"></script>
+        <script charset="utf-8" type="text/javascript" src="../js/scroll.js"></script>
+        <title>Navigator Page</title>
+    </head>
+    
+    
+    <body onLoad="starttime() , scroller()">
+        <!-- header -->
+        <div id="header">   
+            <!-- show time-->
+            <div id="showTime"><div id="nowtime"></div></div>
+                                        
+            <!-- logo -->
+            <div id="logo"></div>       
+            
+            <div id="slogan"></div>
+            
+            <!-- menu -->
+            <div id="menu">
+                <ul>
+                    <li><a href="index.html" >首页</a></li>
+                    <li><a href="../html/navigator_ITT.html" >IT前沿</a></li>
+                    <li><a href="../html/navigator_CP" >职业准备</a></li>
+                    <li><a href="../html/navigator_CA" >职业建议</a></li>
+                    <li><a href="../html/navigator_SD" >学习资料</a></li>
+                    <li><a href="../html/navigator_PM" >简历模板</a></li>
+                    <li><a href="../html/navigator_CU" >联系我们</a></li>
+                </ul>
+            </div> 
+            
+            
+        </div>
+
+        <div id="bar">
+            <div id="scrollInfor">
+                <form name="noticeForm">
+                    <p><input type="text" name="notice" size="90" style="background:url(../image/header1.gif); border:0px; font-size:18px; color:#000080"></p>
+                </form>
+            </div>  
+        </div>
+          
+        <!-- content -->
+        <div id="wrap">
+             <div id="content">
+                   <div class="title">职业建议</div>
+                   <div class="main">
+                        <p>1. 关于XX的某某......</p>
+                        <p>2. 讨论XXXX</p>
+                    </div>
+            </div>     
+        </div>
+        
+        <!-- footer -->
+        <div id="foot">
+            <p><div class="h8">Copyright © 2011 Erics Lau. All rights reserved.</div></p>
+            <p><div class="h10">E-mail:EricsLau@qq.com</div></p>
+        </div>
+
+    </body>
+</html>
+
